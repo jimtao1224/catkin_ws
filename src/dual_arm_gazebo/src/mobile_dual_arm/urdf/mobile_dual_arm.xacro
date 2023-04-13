@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<robot name="mobile_dual_arm" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find mir_description)/urdf/include/mir_100_v1.urdf.xacro" />
+  <!-- <xacro:include filename="$(find mir_description)/urdf/include/common.gazebo.xacro" /> -->
+  <!-- <xacro:include filename="$(find single_arm_description)/urdf/single_arm.xacro" /> -->
+  <xacro:include filename="$(find timda_body)/urdf/timda_body.xacro" />
+  <!-- <xacro:include filename="$(find slide_rail)/urdf/slide_rail.xacro" /> -->
+  <!-- <xacro:include filename="$(find suction_urdf)/urdf/suction_urdf.xacro" /> -->
+  <!--xacro:include filename="$(find single_arm_description)/urdf/materials.xacro" /-->
+  <xacro:include filename="$(find mobile_dual_arm)/urdf/mobile_dual_arm.gazebo" />
+  <!--xacro:include filename="$(find mobile_table)/urdf/mobile_table.xacro" /-->
+
+  <link name="world"/>
+
+  <joint name="fixed1" type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent link="world"/>
+    <child link="mobile_base_footprint"/>
+  </joint>
+  <!-- <joint name="fixed3" type="fixed">
+    <origin
+      xyz="0.037646 0.0 0.355"
+      rpy="0 0 0" />
+
+    <parent link="mobile_base_footprint"/>
+    <child link="base_link"/>
+  </joint> -->
+  <!-- <joint name="world_joint" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint> -->
+
+  <xacro:mir_100 prefix="mobile_"/>
+  
+
+
+
+  <!--joint name="fixed" type="fixed">
+    <origin
+      xyz="0 0.016 0"
+      rpy="-1.57 1.57 0" />
+    <parent link="Arm_Base_L_Link"/>
+    <child link="Base"/>
+  </joint-->
+
+  <!--<joint name="fixed1" type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent link="mobile_base"/>
+    <child link="base_link"/>
+  </joint>-->
+
+  <!--joint name="fixed2" type="fixed">
+    <origin
+      xyz="0 -0.016 0"
+      rpy="1.57 1.57 0" />
+    <parent link="Arm_Base_R_Link"/>
+    <child link="Arm_Base_R"/>
+  </joint-->
+
+</robot>
+
+
+

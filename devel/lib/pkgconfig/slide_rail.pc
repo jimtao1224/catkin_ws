@@ -1,0 +1,8 @@
+prefix=/home/jim/catkin_ws/devel
+
+Name: slide_rail
+Description: Description of slide_rail
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

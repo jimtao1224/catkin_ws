@@ -1,0 +1,8 @@
+prefix=/home/jim/catkin_ws/install
+
+Name: maxon_epos2
+Description: Description of maxon_epos2
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmaxon_epos2_core
+Requires: roscpp message_runtime std_msgs

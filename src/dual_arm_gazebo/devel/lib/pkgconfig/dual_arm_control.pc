@@ -1,0 +1,8 @@
+prefix=/home/jing/dual_arm_gazebo/devel
+
+Name: dual_arm_control
+Description: Description of dual_arm_control
+Version: 0.0.0
+Cflags: -I/home/jing/dual_arm_gazebo/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

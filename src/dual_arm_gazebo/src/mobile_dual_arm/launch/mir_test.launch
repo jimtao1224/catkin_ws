@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- these are the arguments you can pass this launch file, for example paused:=true -->
+  <arg name="paused" default="true"/>
+  <!-- <arg name="use_sim_time" default="true"/> -->
+  <arg name="gui" default="true"/>
+  <arg name="world_name" default="worlds/empty.world"/> 
+
+  <arg name="robot_x"   default="0.0" />
+  <arg name="robot_y"   default="0.0" />
+  <arg name="robot_yaw" default="0.0" />
+  <!-- <arg name="world_name" default="worlds/empty.world"/>  -->
+
+  <!-- We resume the logic in empty_world.launch, changing only the name of the world to be launched -->
+ 
+ 
+ 
+ 
+  <group>
+    <remap from="joint_states"                   to="mir/joint_states" />
+    <remap from="mobile_base_controller/cmd_vel" to="cmd_vel" />
+    <remap from="mobile_base_controller/odom"    to="odom_comb" />
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find mobile_dual_arm)/worlds/mobile_dual_arm.world"/>
+    <arg name="gui" value="$(arg gui)" /> 
+    <arg name="paused" value="$(arg paused)"/>
+  </include>
+   
+  </group>
+  
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+    <rosparam param="source_list">[mir/joint_states]</rosparam>
+    <param name="rate" value="200.0" />
+  </node>
+
+  <!-- Load the URDF into the ROS Parameter Server -->
+
+  <!-- <xacro:include filename="$(find mir_description)/urdf/include/mir_100_v1.urdf.xacro" /> -->
+
+  <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
+  <!-- <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+    args="-urdf -model mobile_dual_arm -param robot_description"/> -->
+
+  <!-- ros_control rrbot launch file -->
+
+  <!-- <include file="$(find dual_arm_control)/launch/dual_arm_control.launch" /> -->
+    <!-- spawn robot and bring up controllers etc. -->
+
+
+  <include file="$(find mir_gazebo)/launch/mir_gazebo_common_test.launch">
+    <arg name="robot_x"   value="$(arg robot_x)" />
+    <arg name="robot_y"   value="$(arg robot_y)" />
+    <arg name="robot_yaw" value="$(arg robot_yaw)" />
+  </include>
+  <!-- ur5 -->
+  <include file="$(find ur_gazebo)/launch/ur5e_bringup.launch"/>
+
+   
+   
+ 
+
+</launch>

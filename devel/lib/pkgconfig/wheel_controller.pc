@@ -1,0 +1,8 @@
+prefix=/home/jim/catkin_ws/devel
+
+Name: wheel_controller
+Description: Description of wheel_controller
+Version: 0.0.0
+Cflags: -I/home/jim/catkin_ws/devel/include -I/home/jim/catkin_ws/src/swerve_drive/wheel_controller/include
+Libs: -L${prefix}/lib -lwheel_controller
+Requires: roscpp rospy maxon_epos2 controller_manager hardware_interface std_msgs sensor_msgs message_runtime

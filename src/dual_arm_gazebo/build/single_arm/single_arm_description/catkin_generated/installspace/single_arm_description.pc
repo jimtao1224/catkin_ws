@@ -1,0 +1,8 @@
+prefix=/home/jing/dual_arm_gazebo/install
+
+Name: single_arm_description
+Description: Description of single_arm_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

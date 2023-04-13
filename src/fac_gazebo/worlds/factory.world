@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <!-- We use a custom world for the rrbot so that the camera angle is launched correctly -->
+
+  <world name="factory_world">
+  <physics type="ode">
+       <real_time_update_rate>2000</real_time_update_rate>
+      <max_step_size>0.0005</max_step_size>
+  </physics>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://aws_robomaker_warehouse_GroundB_01</uri>
+      <pose>-0.169375 0.611546 0 0 -0 0</pose>
+    </include>
+    
+    <model name="table_0">
+      <pose>4.4596 8.4871 0.16 0 -0 0</pose>
+    <include>
+      <uri>model://table</uri>
+      <pose>0.0 0.0 0 0 -0 0</pose>
+    </include>
+    </model>
+     <model name="table_1">
+     <pose>3.3924 5.3496 0.16 0 -0 0</pose>
+    <include>
+      <uri>model://table</uri>
+      <pose frame="">0.0 0.0 0 0 0 0</pose>
+    </include>
+    </model>
+        <model name="table_2">
+        <pose>6.1148 8.4848 0.16 0 0 -0 0</pose>
+    <include>
+      <uri>model://table</uri>
+      <pose>0.0 0.0 0 0 -0 0</pose>
+    </include>
+    </model>
+     <model name="table_3">
+     <pose>6.0163 5.3074 0.16 0 0 -0 0</pose>
+    <include>
+      <uri>model://table</uri>
+      <pose>0.0 0.0 0 0 -0 0</pose>
+    </include>
+    </model>
+    
+    <model name="shelf1">
+     <pose>1.4545 6.637 0.1351 0 0 1.5643</pose>
+    <include>
+      <uri>model://bookshelf3</uri>
+      <pose>0.0 0.0 0.43 0 -0 0</pose>
+    </include>
+    </model>
+    <model name="shelf2">
+     <pose>4.3707 2.8665 0.1351 0 0 -0 0</pose>
+    <include>
+      <uri>model://bookshelf3</uri>
+      <pose>0.0 0.0 0.43 0 -0 0</pose>
+    </include>
+    </model>
+        <model name="metal_peg">
+     <pose>4.3707 2.6665 1.4 0 0 -0 0</pose>
+    <include>
+      <uri>model://metal_peg</uri>
+      <pose>0.0 0.0 0.43 0 -0 0</pose>
+    </include>
+    </model>
+    
+  </world>
+</sdf>

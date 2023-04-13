@@ -1,0 +1,8 @@
+prefix=/home/jing/dual_arm_gazebo/devel
+
+Name: timda_body
+Description: Description of timda_body
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

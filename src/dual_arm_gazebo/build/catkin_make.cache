@@ -1,0 +1,2 @@
+dual_arm_control:mir/mir_description:mir/mir_gazebo:mobile_dual_arm:mobile_table:single_arm/single_arm_control:single_arm/single_arm_description:single_arm/single_arm_gazebo:slide_rail:suction_urdf:timda_body
+-DCATKIN_DEVEL_PREFIX=/home/jing/catkin_ws/src/dual_arm_gazebo/devel -DCMAKE_INSTALL_PREFIX=/home/jing/catkin_ws/src/dual_arm_gazebo/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/jing/UR5_new/devel
+
+Name: ur16e_moveit_config
+Description: Description of ur16e_moveit_config
+Version: 1.2.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

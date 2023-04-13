@@ -1,0 +1,8 @@
+prefix=/home/jim/catkin_ws/install
+
+Name: suction_urdf
+Description: Description of suction_urdf
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

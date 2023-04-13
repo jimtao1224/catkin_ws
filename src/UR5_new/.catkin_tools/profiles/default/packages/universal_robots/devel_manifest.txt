@@ -1,0 +1,2 @@
+fmauch_universal_robot/universal_robots
+/home/hiwin/UR5_new/devel/.private/universal_robots/cmake.lock /home/hiwin/UR5_new/devel/./cmake.lock

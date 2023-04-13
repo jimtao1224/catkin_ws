@@ -1,0 +1,8 @@
+prefix=/home/jing/dual_arm_gazebo/devel
+
+Name: slide_rail
+Description: Description of slide_rail
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

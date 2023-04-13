@@ -1,0 +1,8 @@
+prefix=/home/jing/dual_arm_gazebo/devel
+
+Name: single_arm_gazebo
+Description: Description of single_arm_gazebo
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

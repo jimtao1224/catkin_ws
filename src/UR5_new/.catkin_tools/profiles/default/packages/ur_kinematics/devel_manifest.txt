@@ -1,0 +1,12 @@
+fmauch_universal_robot/ur_kinematics
+/home/hiwin/UR5_new/devel/.private/ur_kinematics/cmake.lock /home/hiwin/UR5_new/devel/./cmake.lock
+/home/hiwin/UR5_new/devel/.private/ur_kinematics/share/ur_kinematics/cmake/ur_kinematicsConfig.cmake /home/hiwin/UR5_new/devel/share/ur_kinematics/cmake/ur_kinematicsConfig.cmake
+/home/hiwin/UR5_new/devel/.private/ur_kinematics/share/ur_kinematics/cmake/ur_kinematicsConfig-version.cmake /home/hiwin/UR5_new/devel/share/ur_kinematics/cmake/ur_kinematicsConfig-version.cmake
+/home/hiwin/UR5_new/devel/.private/ur_kinematics/lib/libur3_moveit_plugin.so /home/hiwin/UR5_new/devel/lib/libur3_moveit_plugin.so
+/home/hiwin/UR5_new/devel/.private/ur_kinematics/lib/libur5_kin.so /home/hiwin/UR5_new/devel/lib/libur5_kin.so
+/home/hiwin/UR5_new/devel/.private/ur_kinematics/lib/libur10_moveit_plugin.so /home/hiwin/UR5_new/devel/lib/libur10_moveit_plugin.so
+/home/hiwin/UR5_new/devel/.private/ur_kinematics/lib/libur3_kin.so /home/hiwin/UR5_new/devel/lib/libur3_kin.so
+/home/hiwin/UR5_new/devel/.private/ur_kinematics/lib/libur5_moveit_plugin.so /home/hiwin/UR5_new/devel/lib/libur5_moveit_plugin.so
+/home/hiwin/UR5_new/devel/.private/ur_kinematics/lib/libur10_kin.so /home/hiwin/UR5_new/devel/lib/libur10_kin.so
+/home/hiwin/UR5_new/devel/.private/ur_kinematics/lib/pkgconfig/ur_kinematics.pc /home/hiwin/UR5_new/devel/lib/pkgconfig/ur_kinematics.pc
+/home/hiwin/UR5_new/devel/.private/ur_kinematics/lib/python3/dist-packages/ur_kinematics/__init__.py /home/hiwin/UR5_new/devel/lib/python3/dist-packages/ur_kinematics/__init__.py

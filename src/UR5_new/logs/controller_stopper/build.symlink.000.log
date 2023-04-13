@@ -1,0 +1,4 @@
+Symlinking /home/hiwin/UR5_new/devel/share/controller_stopper/cmake/controller_stopperConfig.cmake
+Symlinking /home/hiwin/UR5_new/devel/share/controller_stopper/cmake/controller_stopperConfig-version.cmake
+Symlinking /home/hiwin/UR5_new/devel/lib/controller_stopper/node
+Symlinking /home/hiwin/UR5_new/devel/lib/pkgconfig/controller_stopper.pc

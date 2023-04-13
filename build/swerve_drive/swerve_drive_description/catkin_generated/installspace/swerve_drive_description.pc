@@ -1,0 +1,8 @@
+prefix=/home/jim/catkin_ws/install
+
+Name: swerve_drive_description
+Description: Description of swerve_drive_description
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

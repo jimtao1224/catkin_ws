@@ -1,0 +1,4 @@
+Symlinking /home/hiwin/UR5_new/devel/share/ur_calibration/cmake/ur_calibrationConfig.cmake
+Symlinking /home/hiwin/UR5_new/devel/share/ur_calibration/cmake/ur_calibrationConfig-version.cmake
+Symlinking /home/hiwin/UR5_new/devel/lib/pkgconfig/ur_calibration.pc
+Symlinking /home/hiwin/UR5_new/devel/lib/ur_calibration/calibration_correction

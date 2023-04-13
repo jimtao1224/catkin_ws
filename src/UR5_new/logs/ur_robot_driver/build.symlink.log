@@ -1,0 +1,11 @@
+Symlinking /home/hiwin/UR5_new/devel/share/ur_robot_driver/cmake/ur_robot_driverConfig-version.cmake
+Symlinking /home/hiwin/UR5_new/devel/share/ur_robot_driver/cmake/ur_robot_driverConfig.cmake
+Symlinking /home/hiwin/UR5_new/devel/lib/libur_robot_driver_plugin.so
+Symlinking /home/hiwin/UR5_new/devel/lib/liburcl_log_handler.so
+Symlinking /home/hiwin/UR5_new/devel/lib/ur_robot_driver/robot_state_helper
+Symlinking /home/hiwin/UR5_new/devel/lib/ur_robot_driver/cmake.lock
+Symlinking /home/hiwin/UR5_new/devel/lib/ur_robot_driver/dashboard_client
+Symlinking /home/hiwin/UR5_new/devel/lib/ur_robot_driver/test_move
+Symlinking /home/hiwin/UR5_new/devel/lib/ur_robot_driver/tool_communication
+Symlinking /home/hiwin/UR5_new/devel/lib/ur_robot_driver/ur_robot_driver_node
+Symlinking /home/hiwin/UR5_new/devel/lib/pkgconfig/ur_robot_driver.pc

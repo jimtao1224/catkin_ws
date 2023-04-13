@@ -1,0 +1,8 @@
+prefix=/home/jing/dual_arm_gazebo/install
+
+Name: mobile_table
+Description: Description of mobile_table
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
